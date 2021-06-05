@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Exercise3">
+    <LinearLayout
+        android:id="@+id/ButtonRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Start" />
+
+        <Button
+            android:id="@+id/btnStop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Stop" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_height="100dp"
+        android:id="@+id/earth"
+        app:srcCompat="@drawable/earth"
+        android:scaleType="fitCenter"
+        android:layout_width="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_centerVertical="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/moon"
+        app:srcCompat="@drawable/moon"
+        android:layout_marginBottom="11dp"
+        android:layout_alignBottom="@+id/earth"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="169dp" />
+
+</RelativeLayout>

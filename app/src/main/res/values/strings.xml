@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Animations</string>
+
+    <string name="color">Color</string>
+    <string name="thickness">Thickness</string>
+
+    <string-array name="thickness_array">
+        <item>30</item>
+        <item>40</item>
+        <item>50</item>
+    </string-array>
+
+    <string-array name="colors_array">
+        <item>red</item>
+        <item>blue</item>
+        <item>green</item>
+    </string-array>
+</resources>
